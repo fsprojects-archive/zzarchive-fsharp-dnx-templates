@@ -20,7 +20,7 @@
     <Project File="ClassLibrary.xproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true">project.json</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">Library1.fs</ProjectItem>
-	  <ProjectItem ReplaceParameters="true" OpenInEditor="true">Script.fsx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Script.fsx</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.fs">AssemblyInfo.fs</ProjectItem>
       </Folder>

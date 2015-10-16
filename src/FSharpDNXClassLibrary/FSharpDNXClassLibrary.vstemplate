@@ -20,11 +20,11 @@
     <ProjectCollection/>
     <CustomParameters>
       <CustomParameter Name="$projectwizardname$" Value="FSharpClassLibrary\FSharpClassLibrary.vstemplate" />
-      <CustomParameter Name="$nugetfeedsource$" Value="__NUGETFEEDSOURCE__" />
+      <CustomParameter Name="$nugetfeedsource$" Value="api.nuget.org=https://api.nuget.org/v3/index.json" />
     </CustomParameters>
   </TemplateContent>
   <WizardExtension>
-    <Assembly>Microsoft.VisualStudio.ProjectSystem.Wizard, Version=__VSVER__.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <Assembly>Microsoft.VisualStudio.ProjectSystem.Wizard, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
     <FullClassName>Microsoft.VisualStudio.ProjectSystem.Wizard.FolderLayoutTemplateWizard</FullClassName>
   </WizardExtension>
 </VSTemplate>

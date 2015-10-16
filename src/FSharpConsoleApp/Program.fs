@@ -1,7 +1,6 @@
-// Learn more about F# at http://fsharp.org
-// See the 'F# Tutorial' project for more help.
+namespace $safeprojectname$
 
-[<EntryPoint>]
-let main argv =
-    printfn "%A" argv
-    0 // return an integer exit code
+type Program () =
+    member x.Main (argv: string array) =
+        printfn "%A" argv
+        0

@@ -28,3 +28,30 @@ You can include it in your NuGet.Config file:
 
 ### Why is the `Program` type a class with a `Main` method and not a simple F# function like the standard F# Console Application template?
 When DNX loads, [it looks for a class called `Program` with a method called `Main`](https://github.com/aspnet/dnx/blob/7ac7929aa575e17b3c271e4a7a0c164418de0395/src/Microsoft.Dnx.Runtime.Sources/Impl/EntryPointExecutor.cs#L70-L111).
+You can do
+```F#
+module Program
+
+let Main (argv: string array) =
+    printfn "%A" argv
+    0
+```
+but you can also do
+```F#
+module MyModule
+
+type Program () =
+    member x.Main (argv: string array) =
+        printfn "%A" argv
+        0
+```
+or
+```F#
+namespace ConsoleApplication1
+
+type Program () =
+    member x.Main (argv: string array) =
+        printfn "%A" argv
+        0
+```
+where you can do dependency injection into the Program class constructor, e.g. inject an `IApplicationEnvironment`.

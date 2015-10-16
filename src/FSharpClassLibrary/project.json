@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0-*",
+  "description": "$safeprojectname$ Class Library",
+  "authors": [ "$username$" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "FSharp.Core": "4.0.0.1",
+    "FSharp.Dnx": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  },
+
+  "compiler": {
+    "name": "F#",
+    "compilerAssembly": "FSharp.Dnx",
+    "compilerType": "FSharp.Dnx.FSharpProjectCompiler"
+  },
+
+  "fsharp": {
+    "files": [
+      "Properties/AssemblyInfo.fs",
+      "Program.fs"
+    ]
+  }
+}

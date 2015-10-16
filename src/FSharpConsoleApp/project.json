@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0-*",
+  "description": "$projectname$ Console Application",
+  "authors": [ "$username$" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "FSharp.Core": "4.0.0.1",
+    "FSharp.Dnx": {
+      "type": "build",
+      "version": ""
+    }
+  },
+
+  "commands": {
+    "$safeprojectname$": "$safeprojectname$"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  },
+
+  "compiler": {
+    "name": "F#",
+    "compilerAssembly": "FSharp.Dnx",
+    "compilerType": "FSharp.Dnx.FSharpProjectCompiler"
+  },
+
+  "fsharp": {
+    "files": [
+      "Program.fs"
+    ]
+  }
+}

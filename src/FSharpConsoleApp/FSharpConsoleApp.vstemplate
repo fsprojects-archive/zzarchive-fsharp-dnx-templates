@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Console App (DNX)</Name>
+    <Description>F# Console App for DNX</Description>
+    <Icon>ConsoleProject.png</Icon>
+    <ProjectType>FSharp</ProjectType>
+    <ProjectSubType>Web</ProjectSubType>
+    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <SortOrder>19</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>Microsoft.Visualstudio.DNX.FSharpConsoleApp</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <CreateInPlace>true</CreateInPlace>
+    <DefaultName>ConsoleApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ConsoleApp.xproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true">project.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Program.fs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

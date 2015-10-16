@@ -8,10 +8,7 @@
 
   "dependencies": {
     "FSharp.Core": "4.0.0.1",
-    "FSharp.Dnx": {
-      "type": "build",
-      "version": ""
-    }
+    "FSharp.Dnx": "1.0.0-*"
   },
 
   "commands": {

@@ -27,6 +27,7 @@
 
   "fsharp": {
     "files": [
+      "Properties/AssemblyInfo.fs",
       "Program.fs"
     ]
   }

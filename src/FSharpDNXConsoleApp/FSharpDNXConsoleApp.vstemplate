@@ -5,7 +5,7 @@
     <Description>A project template for creating a console application as a NuGet package that can run on .NET Framework or .NET Core.</Description>
     <Icon>ConsoleProject.png</Icon>
     <ProjectType>FSharp</ProjectType>
-    <ProjectSubType>Windows</ProjectSubType>
+    <ProjectSubType>Web</ProjectSubType>
     <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
     <SortOrder>19</SortOrder>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>

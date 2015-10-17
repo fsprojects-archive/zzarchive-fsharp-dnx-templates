@@ -55,3 +55,8 @@ let Main (argv: string array) =
     0
 ```
 If you choose to use a Program class, you can do dependency injection, e.g. inject an `IApplicationEnvironment`.
+
+## Maintainer(s)
+* [@jbfp](https://github.com/jbfp)
+
+The default maintainer account for projects under "fsprojects" is [@fsprojectsgit](https://github.com/fsprojectsgit) - F# Community Project Incubation Space (repo management)

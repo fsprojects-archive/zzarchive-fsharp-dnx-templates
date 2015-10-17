@@ -1,4 +1,4 @@
-namespace $safeprojectname$.AssemblyInfo
+namespace $safeprojectname$
 
 open System.Reflection
 open System.Runtime.CompilerServices

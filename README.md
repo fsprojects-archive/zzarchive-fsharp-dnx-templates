@@ -3,12 +3,12 @@ Visual Studio templates for creating DNX projects with F#.
 
 ## Getting started
 Right now we have the following templates:
-* [Class library](https://github.com/fsprojects/fsharp-dnx-templates/tree/template-pair-folders/src/ClassLibrary)
-* [Console app](https://github.com/fsprojects/fsharp-dnx-templates/tree/template-pair-folders/src/ConsoleApp)
-* [Empty web app](https://github.com/fsprojects/fsharp-dnx-templates/tree/template-pair-folders/src/EmptyWeb)
+* [Class library](https://github.com/fsprojects/fsharp-dnx-templates/tree/master/src/ClassLibrary)
+* [Console app](https://github.com/fsprojects/fsharp-dnx-templates/tree/master/src/ConsoleApp)
+* [Empty web app](https://github.com/fsprojects/fsharp-dnx-templates/tree/master/src/EmptyWeb)
 
 The installation approach is identical for each template.
-* The content template (e.g. [FSharpConsoleApp](https://github.com/fsprojects/fsharp-dnx-templates/tree/template-pair-folders/src/ConsoleApp/FSharpConsoleApp)) goes into `..\Microsoft Visual Studio 14.0\Common7\IDE\AspNetProjectTemplates\1033\`
+* The content template (e.g. [FSharpConsoleApp](https://github.com/fsprojects/fsharp-dnx-templates/tree/master/src/ConsoleApp/FSharpConsoleApp)) goes into `..\Microsoft Visual Studio 14.0\Common7\IDE\AspNetProjectTemplates\1033\`
 * The DNX template (e.g. [FSharpDNXConsoleApp](https://github.com/jbfp/fsharp-dnx-templates/tree/master/src/ConsoleApp/FSharpDNXConsoleApp)) goes into `..\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates\FSharp\1033`
 
 To get Visual Studio to register the templates, you can run `devenv.exe /installvstemplates`. (`devenv.exe` is in the `..\Microsoft Visual Studio 14.0\Common7\IDE\` folder.)

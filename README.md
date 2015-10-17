@@ -26,6 +26,9 @@ You can include it in your NuGet.Config file:
 </configuration>
 ```
 
+### Why does an EmptyWeb application return `500 Internal Server Error` when running it? I haven't changed a thing!
+Because you need a newer version of `Microsoft.AspNet.IISPlatformHandler` which you can get by adding [the ASP.NET "dev" build NuGet feed](https://www.myget.org/F/aspnetvnext/api/v3/index.json) to your NuGet.Config.
+
 ### Why is the `Program` type a class with a `Main` method and not a simple F# function like the standard F# Console Application template?
 When DNX loads, [it looks for a class called `Program` with a method called `Main`](https://github.com/aspnet/dnx/blob/7ac7929aa575e17b3c271e4a7a0c164418de0395/src/Microsoft.Dnx.Runtime.Sources/Impl/EntryPointExecutor.cs#L70-L111).
 You can do

@@ -29,6 +29,8 @@ You can include it in your NuGet.Config file:
 </configuration>
 ```
 
+If you don't have a NuGet.config file, create it yourself in the solution root. You can then add it to Visual Studio by right-clicking the solution node in the Solution Explorer and adding an existing item.
+
 ### Why does an EmptyWeb application return `500 Internal Server Error` when running it? I haven't changed a thing!
 Because you need a newer version of `Microsoft.AspNet.IISPlatformHandler` which you can get by adding [the ASP.NET "dev" build NuGet feed](https://www.myget.org/F/aspnetvnext/api/v3/index.json) to your NuGet.Config.
 
